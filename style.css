@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 50px;
+}
+
+.sign-up {
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dark-gray {
+    background-color: rgb(107, 107, 107);
+}
+
+.light-gray {
+    background-color: rgb(207, 206, 206);
+}
