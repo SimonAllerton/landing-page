@@ -75,7 +75,7 @@ footer {
 }
 
 .left {
-    flex: ;
+    flex: 1;
     display: flex;
     flex-direction: column;
     margin-left: 100px;
@@ -150,13 +150,6 @@ h2 {
     padding: 50px;
 }
 
-.sign-up {
-    padding: 8px 80px;
-    margin: 50px;
-    background-color: #3882f6;
-}
-
-
 
 
 
@@ -165,10 +158,27 @@ h2 {
 
 
 /* Section 4 */
+.sign-up {
+    padding: 8px 80px;
+    margin: 50px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 
+}
+
+.sign-up-text {
+    flex: 4;
+    color: #E5E7EB;
+}
 
 .sign-up button {
-    border: 8px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 
