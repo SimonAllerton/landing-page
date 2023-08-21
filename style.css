@@ -4,12 +4,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .container {
     display: flex;
 }
 
+.container.one {
+    flex: 3 1;
+}
+
+.container.two, 
+.container.three,
+.container.four {
+    flex: 1 1;
+}
 
 /* Header */
 header {
@@ -38,6 +48,35 @@ footer {
 }
 
 
+/* Section 1 */
+.side-by {
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 72px;
+    padding: 48px 18px;
+}
+
+.right {
+    flex: 1;
+    background-color: blue;
+    margin: 48px 72px 48px 8px;
+}
+
+.left button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+}
 
 
 
@@ -59,34 +98,15 @@ h2 {
     flex-direction: column;
     align-items: center;
     border: 5px solid blue;
+    border-radius: 8px;
 }
 
-
-
-/* Section 1 */
-.side-by {
-    justify-content: space-between;
-}
-
-.left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-left: 72px;
-    padding: 48px 18px;
-}
-
-.right {
-    flex: 1;
-    background-color: blue;
-    margin: 48px 72px 48px 8px;
-}
 
 
 
 /* Section 3 & 4 
     placement  */
-.centered-container {
+.container.centered {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +117,18 @@ h2 {
 }
 
 .sign-up {
-    padding: 50px;
+    padding: 8px 80px;
+    margin: 50px;
+    background-color: #3882f6;
+}
+
+
+
+/* Section 4 */
+
+
+.sign-up button {
+    border: 8px #E5E7EB;
 }
 
 
@@ -105,11 +136,7 @@ h2 {
 
 
 
-
-
-
-
-/* * Section
+/* Section
     background colors */
 .dark-gray {
     background-color: rgb(107, 107, 107);
