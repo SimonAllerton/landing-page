@@ -12,14 +12,21 @@ body {
 }
 
 .container.one {
-    flex: 3 1;
+    flex: 3;
 }
 
 .container.two, 
 .container.three,
 .container.four {
-    flex: 1 1;
+    flex: 1 1 300px;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
+
 
 /* Header */
 header {
@@ -40,6 +47,11 @@ a {
     text-decoration: none;
 }
 
+
+
+
+
+
 /* Footer */
 footer {
     display: flex;
@@ -48,34 +60,50 @@ footer {
 }
 
 
+
+
+
+
+
+
 /* Section 1 */
 .side-by {
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: none;
+    display: flex;
+    flex-wrap: wrap
 }
 
 .left {
-    flex: 1;
+    flex: ;
     display: flex;
     flex-direction: column;
-    margin-left: 72px;
+    margin-left: 100px;
     padding: 48px 18px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 .right {
     flex: 1;
     background-color: blue;
-    margin: 48px 72px 48px 8px;
+    margin: 48px 100px 48px 8px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
-.left button {
+button {
     background-color: #3882f6;
     color: #E5E7EB;
     padding: 0px;
     margin: 0px;
-    border: none;
     border-radius: 5px;
     width: 120px;
     height: 25px;
+}
+
+.left button {
+     border: none;
 }
 
 
@@ -104,6 +132,12 @@ h2 {
 
 
 
+
+
+
+
+
+
 /* Section 3 & 4 
     placement  */
 .container.centered {
@@ -124,11 +158,17 @@ h2 {
 
 
 
+
+
+
+
+
+
 /* Section 4 */
 
 
 .sign-up button {
-    border: 8px #E5E7EB;
+    border: 8px solid #E5E7EB;
 }
 
 
