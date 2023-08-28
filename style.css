@@ -95,7 +95,7 @@ footer {
 }
 
 .left {
-    flex: 1;
+    flex: 1 1 200px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -105,12 +105,16 @@ footer {
 }
 
 .right {
-    flex: 2;
-    background-color: blue;
+    flex: 2 3 500px;
     margin: auto;
     padding: 48px 18px;
-    min-width: 300px;
-    max-width: auto;
+    min-width: 100px;
+    max-width: 700px;
+}
+
+.right img {
+    max-height: 350px;
+    width: auto;
 }
 
 button {
@@ -148,10 +152,16 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid blue;
-    border-radius: 8px;
+    border-radius: 15px;
+    background-color: #E5E7EB;
+    padding: 8px;
 }
 
+.card img {
+    max-height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
 
 
 
@@ -190,6 +200,7 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
+    border-radius: 15px;
 
 }
 
