@@ -40,11 +40,14 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 8px;
+    align-items: center;
+    gap: 15px;
 }
 
 a {
     text-decoration: none;
+    color: black;
+    font-size: 15px;
 }
 .logo {
     display: flex;
