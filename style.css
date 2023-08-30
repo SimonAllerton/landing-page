@@ -154,7 +154,7 @@ h2 {
     align-items: center;
     border-radius: 15px;
     background-color: #E5E7EB;
-    padding: 8px;
+    padding: 10px;
 }
 
 .card img {
@@ -163,6 +163,9 @@ h2 {
     border-radius: 15px;
 }
 
+.card p {
+    padding: 10px 0px;
+}
 
 
 
