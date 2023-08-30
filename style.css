@@ -76,6 +76,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 18px;
+    background-color: rgb(107, 107, 107);
 }
 
 
@@ -118,7 +119,7 @@ footer {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #2234ae;
     color: #E5E7EB;
     padding: 0px;
     margin: 0px;
@@ -197,7 +198,8 @@ h2 {
 .sign-up {
     padding: 8px 80px;
     margin: 50px;
-    background-color: #3882f6;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,7 +215,7 @@ h2 {
 }
 
 .sign-up button {
-    border: 2px solid #E5E7EB;
+    border: 2px;
     flex-grow: 1;
     flex-shrink: 0;
 }
@@ -225,10 +227,12 @@ h2 {
 
 /* Section
     background colors */
-.dark-gray {
-    background-color: rgb(107, 107, 107);
-}
 
 .light-gray {
     background-color: rgb(207, 206, 206);
+}
+
+.ocean {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
